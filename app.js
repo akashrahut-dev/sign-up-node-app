@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //locate the folder
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/singup.html");
+  res.sendFile(__dirname + "/Singup.html");
 });
 
 app.post("/", (req, res) => {
